@@ -1,13 +1,13 @@
 import pandas as pd
-import plotly.express as px
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
-from textblob import TextBlob
-import spacy
-from collections import defaultdict
-from collections import Counter
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.decomposition import LatentDirichletAllocation
+import plotly.express as px from wordcloud 
+import WordCloud
+import matplotlib.pyplot as plt from textblob
+import TextBlob
+import spacy from collections
+import defaultdict from collections 
+import Counter from sklearn.feature_extraction.text 
+import CountVectorizer from sklearn.decomposition 
+import LatentDirichletAllocation
 
 nlp = spacy.load('en_core_web_sm')
 
